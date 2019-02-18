@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+	char src[80]="빈대";
+
+	printf("결과 : %s\n",strcat(src,"떡"));
+	return 0;
+}
